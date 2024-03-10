@@ -1,0 +1,16 @@
+{
+  "name": "typescript-design-patterns",
+  "version": "1.0.0",
+  "description": "Repository for Design Patterns",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "(npx parcel ./index.html) && npx parcel watch ./index.html"
+  },
+  "keywords": [],
+  "author": "wallace-sf",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "prettier": "^3.2.4"
+  }
+}
