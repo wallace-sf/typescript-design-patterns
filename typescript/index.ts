@@ -65,3 +65,16 @@ class BlogPostDisplay {
     return `<h1>${this.blogPost.title}</h1><p>${this.blogPost.content}</p>`;
   }
 }
+
+class BlogPostJSON {
+  public blogPost: BlogPost;
+
+  construct(blogPost: BlogPost) {
+    this.blogPost = blogPost;
+  }
+
+  // Method related to post display
+  displayJSON() {
+    return JSON.stringify(this.blogPost);
+  }
+}
